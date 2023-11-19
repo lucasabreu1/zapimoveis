@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "209517436238",
+    "project_id": "imoveis-e3f7c",
+    "storage_bucket": "imoveis-e3f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209517436238:android:c7744e5257f0061c45121f",
+        "android_client_info": {
+          "package_name": "com.example.zapimoveis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0i_qT6wRqyQkicwuR1CVtCE44_Vc-CxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

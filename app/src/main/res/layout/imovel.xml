@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/imovel_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/tvImagem"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Padding15LeftTopRight"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPecoAluguel"
+            style="@style/MediumBlackFontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/tvPrecosContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPrecoCondominio"
+                android:text="Cond. "
+                style="@style/SmallGrayFont"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvPrecoIptu"
+                android:text="IPTU. "
+                style="@style/SmallGrayFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCaracteristicasContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvQtdQuartos"
+                style="@style/SmallGrayFont"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvQtdBanheiros"
+                style="@style/SmallGrayFont"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvQtdVagas"
+                style="@style/SmallGrayFont"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvQtdArea"
+                style="@style/SmallGrayFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tvIconeLocalizacao"
+                android:layout_gravity="center"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/location_icon"/>
+
+            <TextView
+                android:id="@+id/tvEndereco"
+                style="@style/SmallGrayFont"
+                android:textAlignment="center"
+
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
