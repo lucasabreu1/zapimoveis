@@ -8,4 +8,5 @@ Conceitos abordados:
 - Glide, para recuperar as imagens direto do Cloud Storage para as ImageViews.
 
 
-![image](https://github.com/lucasabreu1/zapimoveis/assets/12264080/9b50d424-300a-4f5b-9776-9a76aff35324)
+![image](https://github.com/lucasabreu1/zapimoveis/assets/12264080/4366911d-e3c2-4e21-8887-f8bfbd775e90)
+
